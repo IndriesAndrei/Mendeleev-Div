@@ -1,0 +1,1511 @@
+html{
+    font-size: 16px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#menu{
+    width: 600px; 
+    margin: 0px auto;
+    font-size: 40px;
+    text-align: center;
+}
+
+section {
+    max-width: 1064px;
+    margin: 0px auto;
+    overflow: hidden;
+    min-width: 300px;
+}
+
+#container {
+   width: 100%;
+   background-color: lightgray;
+}
+
+#lowerContainer{
+    background-color: lightgray;
+}
+
+#container:before,
+#container:after {
+    content:"";
+    display:table;
+}
+#container:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+#container {
+    zoom:1;
+}
+
+#denumire {
+    position: absolute;
+    top: 10%;
+    margin-left: 24%;
+    font-size: 85%;  
+}
+
+#denumire2{
+     position: absolute;
+     top: 13%;
+     margin-left: 24%;
+     font-size: 85%;
+}
+
+#atomic {
+    position: absolute;
+    top: 9%;
+    left: 51%;
+    font-size: 85%; 
+}
+
+#masa {
+    position: absolute;
+    top: 15%;
+    left: 51%;
+    font-size: 85%; 
+}
+
+#p{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+#e{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+#r{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+#i{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+
+#o{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+#a{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+#d{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+#a2{
+    position: absolute;
+    top: 65%;
+    left: 5%;
+}
+
+#unu {
+   position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+#doi {
+   position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+#trei {
+   position: absolute;
+    top: 40%;
+    left: 8%;
+}
+
+#patru {
+   position: absolute;
+    top: 48%;
+    left: 8%;
+}
+
+#cinci {
+   position: absolute;
+    top: 57%;
+    left: 8%;
+}
+
+#sase {
+   position: absolute;
+    top: 66%;
+    left: 8%;
+}
+
+#sapte {
+   position: absolute;
+    top: 76%;
+    left: 8%;
+}
+
+.box{
+    border: 1px solid black; 
+    padding: 0%;
+    text-align: center; 
+    font-size: 1.63em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px; 
+    margin: 2px; 
+    -webkit-box-shadow: 1px 1px 1px #ccc; 
+    -moz-box-shadow: 1px 1px 1px #ccc; 
+    box-shadow: 1.5px 2px 2px #000; 
+    text-shadow: 1px 1px 1px #ccc;
+    line-height: 50%;
+}
+
+
+.box:hover{
+    box-shadow: 1px 1px 1px #ccc; 
+    cursor: pointer; 
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+#panelZero {
+    width: 5.5556%;
+    color: black;
+    position: relative;
+    margin-left: 45%;
+}
+
+#panelOne{
+    float: left; 
+    width: 5.5556%;
+    color: black;
+    margin-top: 0%;
+}
+
+#panelOne .box {
+    background-color: yellow;
+}
+
+#panelTwo{
+    float: left; 
+    width: 5.5556%;
+    margin-top: 1.5%; 
+    color: black;
+}
+
+#panelTwo .box {
+    background-color: yellow;
+}
+
+#panelThree{
+    float: left; 
+    width: 5.5556%;
+    margin-top: 12%;
+    color: black;
+}
+
+#panelThree .box{
+    background-color: yellow;
+}
+
+#lastPanel {
+    float: left; 
+    width: 5.5556%;
+    color: black;
+    margin-top: -3.9%;
+}
+
+
+#lowerContainer{
+    float: left; 
+    margin-top:1%;
+    width: 80%; 
+    margin-left: 11%;
+}
+
+.grupa{
+   font-size: 70%;
+}
+
+.lastPanel {
+    margin-top: 120px;
+    border: 1px solid red;
+}
+
+.info {
+    font-size:xx-small
+}
+
+.bottom{
+    float: left; 
+    width: 6.66666667%;
+    color: black;
+
+}
+
+.bottom .box {
+    background-color: red;
+    color: black;
+}
+
+ #shortcut {
+        font-size: 100%;
+        height: 55px;
+    }
+
+
+/* ================ Media Query ========== */
+
+@media screen and (max-width: 1300px){
+    #panelTwo{
+        margin-top: 1.5%;
+
+    }
+
+    #panelThree{
+        top: 16.9%;
+    }
+
+     #shortcut {
+        font-size: 70%;
+        height: 80px;
+    }
+
+    #p{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+}
+
+    #e{
+        position: absolute;
+        top: 35%;
+        left: 0%;
+    }
+
+    #r{
+        position: absolute;
+        top: 40%;
+        left: 0%;
+    }
+
+    #i{
+        position: absolute;
+        top: 45%;
+        left: 0%;
+    }
+
+    #o{
+        position: absolute;
+        top: 50%;
+        left: 0%;
+    }
+
+    #a{
+        position: absolute;
+        top: 55%;
+        left: 0%;
+    }
+
+    #d{
+        position: absolute;
+        top: 60%;
+        left: 0%;
+    }
+
+    #a2{
+        position: absolute;
+        top: 65%;
+        left: 0%;
+    }
+
+    #unu {
+       position: absolute;
+        top: 21%;
+        left: 3%;
+    }
+
+    #doi {
+       position: absolute;
+        top: 32%;
+        left: 3%;
+    }
+
+    #trei {
+       position: absolute;
+        top: 41%;
+        left: 3%;
+    }
+
+    #patru {
+       position: absolute;
+        top: 49%;
+        left: 3%;
+    }
+
+    #cinci {
+       position: absolute;
+        top: 58%;
+        left: 3%;
+    }
+
+    #sase {
+       position: absolute;
+        top: 67%;
+        left: 3%;
+    }
+
+    #sapte {
+       position: absolute;
+        top: 77%;
+        left: 3%;
+    }
+
+    #denumire {
+    position: absolute;
+    top: 10%;
+    margin-left: 27%;
+    font-size: 85%;  
+    }
+
+    #denumire2{
+         position: absolute;
+         top: 13%;
+         margin-left: 27%;
+         font-size: 85%;
+    }
+
+    #shortcut{
+        font-size: 80%;
+        height: 54.5px;
+    }
+}
+
+
+@media screen and (max-width: 1300px){
+    #panelTwo{
+        margin-top: 1.5%;
+
+    }
+
+    #panelThree{
+        top: 16.9%;
+    }
+
+     #shortcut {
+        font-size: 70%;
+        height: 80px;
+    }
+
+    #p h1{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    font-size: 1em;
+}
+
+    #e h1{
+        position: absolute;
+        top: 35%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #r h1{
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #i h1{
+        position: absolute;
+        top: 45%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #o h1{
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #a h1{
+        position: absolute;
+        top: 55%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #d h1{
+        position: absolute;
+        top: 60%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #a2 h1{
+        position: absolute;
+        top: 65%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #unu {
+       position: absolute;
+        top: 22%;
+        left: 2%;
+        font-size: 3em;
+    }
+
+     #unu h3{
+       font-size: 0.3em;
+    }
+
+    #doi {
+       position: absolute;
+        top: 32%;
+        left: 2%;
+    }
+
+    #doi h3 {
+        font-size: 1em;
+      
+    }
+
+    #trei {
+       position: absolute;
+        top: 41%;
+        left: 2%;
+    }
+
+    #trei h3{
+        font-size: 1em;
+    }
+
+    #patru {
+       position: absolute;
+        top: 50%;
+        left: 2%;
+    }
+
+    #patru h3{
+        font-size: 1em;
+    }
+
+    #cinci {
+       position: absolute;
+        top: 59%;
+        left: 2%;
+    }
+
+    #cinci h3{
+        font-size: 1em;
+    }
+
+    #sase {
+       position: absolute;
+        top: 68%;
+        left: 2%;
+    }
+
+    #sase h3{
+        font-size: 1em;
+    }
+
+    #sapte {
+       position: absolute;
+        top: 78%;
+        left: 2%;
+    }
+
+    #sapte h3{
+        font-size: 1em;
+    }
+
+    #denumire {
+    position: absolute;
+    top: 10%;
+    margin-left: 27%;
+    font-size: 85%;  
+    }
+
+    #denumire2{
+         position: absolute;
+         top: 13%;
+         margin-left: 27%;
+         font-size: 85%;
+    }
+
+    #shortcut{
+        font-size: 80%;
+        height: 54.5px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #panelTwo{
+        margin-top: 1.5%;
+
+    }
+
+    #panelThree{
+        top: 16.9%;
+    }
+
+     #shortcut {
+        font-size: 70%;
+        height: 80px;
+    }
+
+    #p h1{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    font-size: 1em;
+}
+
+    #e h1{
+        position: absolute;
+        top: 35%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #r h1{
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #i h1{
+        position: absolute;
+        top: 45%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #o h1{
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #a h1{
+        position: absolute;
+        top: 55%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #d h1{
+        position: absolute;
+        top: 60%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #a2 h1{
+        position: absolute;
+        top: 65%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #unu {
+       position: absolute;
+        top: 22%;
+        left: 1%;
+        font-size: 3em;
+    }
+
+     #unu h3{
+       font-size: 0.3em;
+    }
+
+    #doi {
+       position: absolute;
+        top: 32%;
+        left: 1%;
+    }
+
+    #doi h3 {
+        font-size: 1em;
+      
+    }
+
+    #trei {
+       position: absolute;
+        top: 41%;
+        left: 1%;
+    }
+
+    #trei h3{
+        font-size: 1em;
+    }
+
+    #patru {
+       position: absolute;
+        top: 50%;
+        left: 1%;
+    }
+
+    #patru h3{
+        font-size: 1em;
+    }
+
+    #cinci {
+       position: absolute;
+        top: 59%;
+        left: 1%;
+    }
+
+    #cinci h3{
+        font-size: 1em;
+    }
+
+    #sase {
+       position: absolute;
+        top: 68%;
+        left: 1%;
+    }
+
+    #sase h3{
+        font-size: 1em;
+    }
+
+    #sapte {
+       position: absolute;
+        top: 78%;
+        left: 1%;
+    }
+
+    #sapte h3{
+        font-size: 1em;
+    }
+
+    #denumire {
+    position: absolute;
+    top: 10%;
+    margin-left: 27%;
+    font-size: 85%;  
+    }
+
+    #denumire2{
+         position: absolute;
+         top: 13%;
+         margin-left: 27%;
+         font-size: 85%;
+    }
+
+    #shortcut{
+        font-size: 80%;
+        height: 54.5px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    #panelTwo{
+        margin-top: 1.5%;
+
+    }
+
+    #panelThree{
+        top: 16.9%;
+    }
+
+     #shortcut {
+        font-size: 70%;
+        height: 80px;
+    }
+
+    #p{
+        position: absolute;
+        top: 3%;
+    }
+
+     #e {
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #r {
+        position: absolute;
+        top: 7%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #i {
+        position: absolute;
+        top: 9%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #o {
+        position: absolute;
+        top: 11%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #a {
+        position: absolute;
+        top: 13%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #d {
+        position: absolute;
+        top: 15%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #a2 {
+        position: absolute;
+        top: 17%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+
+    #unu {
+       position: absolute;
+        top: 22%;
+        left: 0%;
+        font-size: 3em;
+    }
+
+     #unu h3{
+       font-size: 0.3em;
+    }
+
+    #doi {
+       position: absolute;
+        top: 32%;
+        left: 0%;
+    }
+
+    #doi h3 {
+        font-size: 1em;
+      
+    }
+
+    #trei {
+       position: absolute;
+        top: 41%;
+        left: 0%;
+    }
+
+    #trei h3{
+        font-size: 1em;
+    }
+
+    #patru {
+       position: absolute;
+        top: 50%;
+        left: 0%;
+    }
+
+    #patru h3{
+        font-size: 1em;
+    }
+
+    #cinci {
+       position: absolute;
+        top: 59%;
+        left: 0%;
+    }
+
+    #cinci h3{
+        font-size: 1em;
+    }
+
+    #sase {
+       position: absolute;
+        top: 68%;
+        left: 0%;
+    }
+
+    #sase h3{
+        font-size: 1em;
+    }
+
+    #sapte {
+       position: absolute;
+        top: 78%;
+        left: 0%;
+    }
+
+    #sapte h3{
+        font-size: 1em;
+    }
+
+    #denumire {
+    position: absolute;
+    top: 10%;
+    margin-left: 27%;
+    font-size: 85%;  
+    }
+
+    #denumire2{
+         position: absolute;
+         top: 13%;
+         margin-left: 27%;
+         font-size: 85%;
+    }
+
+    #shortcut{
+        font-size: 80%;
+        height: 54.5px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #panelTwo{
+        margin-top: 1.8%;
+
+    }
+
+    #panelThree{
+        margin-top: 14.2%;
+    }
+
+    #lastPanel{
+        margin-top: -4.1% ;
+    }
+
+     #shortcut {
+        font-size: 70%;
+        height: 55px;
+    }
+
+    #denumire{
+        margin-top: 0%;
+    }
+
+    #denumire2 {
+        margin-top: 1%;
+    }
+
+    #atomic{
+        margin-top: 0.5%;
+    }
+
+    #masa{
+        margin-top: 0.5%;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    #panelTwo{
+        margin-top: 1.7%;
+    }
+
+    #panelThree{
+        margin-top: 14.3%;
+    }
+
+    #lastPanel{
+        margin-top: -4.6%;
+    }
+
+    #shortcut{
+        font-size: 0.8em;
+         height: 54.8px;
+    }
+
+    #denumire{
+        margin-top: 0%;
+    }
+
+    #denumire2 {
+        margin-top: 0.7%;
+    }
+
+    #atomic{
+        margin-top: 0.3%;
+    }
+
+    #masa{
+        margin-top: 1.1%;
+    }
+    
+     .grupa {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .box{
+        font-size: 1em; 
+    }
+
+     .grupa {
+        font-size: 55%;
+    }
+
+    #panelTwo{
+        margin-top: 1.7%;
+    }
+
+    #panelThree{
+        margin-top: 11%;
+    }
+
+    #lastPanel{
+        margin-top: -2.8%;
+    }
+
+
+     #shortcut {
+        font-size: 70%;
+        height: 34.2px;
+    }
+
+    #atomic{
+        margin-top: 0%;
+    }
+
+    #masa{
+        margin-top: -1.5%;
+    }
+
+     #p{
+        position: absolute;
+        top: 3%;
+    }
+
+     #e {
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #r {
+        position: absolute;
+        top: 7%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #i {
+        position: absolute;
+        top: 9%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #o {
+        position: absolute;
+        top: 11%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #a {
+        position: absolute;
+        top: 13%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #d {
+        position: absolute;
+        top: 15%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #a2 {
+        position: absolute;
+        top: 17%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+
+    #unu {
+       position: absolute;
+        top: 22%;
+        left: 0%;
+        font-size: 3em;
+    }
+
+     #unu h3{
+       font-size: 0.3em;
+    }
+
+    #doi {
+       position: absolute;
+        top: 27%;
+        left: 0%;
+    }
+
+    #doi h3 {
+        font-size: 1em;
+      
+    }
+
+    #trei {
+       position: absolute;
+        top: 33%;
+        left: 0%;
+    }
+
+    #trei h3{
+        font-size: 1em;
+    }
+
+    #patru {
+       position: absolute;
+        top: 39%;
+        left: 0%;
+    }
+
+    #patru h3{
+        font-size: 1em;
+    }
+
+    #cinci {
+       position: absolute;
+        top: 45%;
+        left: 0%;
+    }
+
+    #cinci h3{
+        font-size: 1em;
+    }
+
+    #sase {
+       position: absolute;
+        top: 50%;
+        left: 0%;
+    }
+
+    #sase h3{
+        font-size: 1em;
+    }
+
+    #sapte {
+       position: absolute;
+        top: 56%;
+        left: 0%;
+    }
+
+    #sapte h3{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    #panelTwo{
+        margin-top: 1.2%;
+    }
+
+    #panelThree{
+        margin-top: 12%;
+    }
+
+    #lastPanel{
+        margin-top: -3.8%;
+    }
+
+     .info {
+        font-size: 50%;
+    }
+
+     .grupa {
+        font-size: 40%;
+    }
+
+     #shortcut {
+        font-size: 60%;
+        height: 34.5px;
+    }
+
+     #denumire{
+        margin-top: 0%;
+        margin-left: 24.5%;
+    }
+
+    #denumire2 {
+        margin-top: 0.4%;
+    }
+
+    #atomic{
+        margin-top: 0.2%;
+    }
+
+    #masa{
+        margin-top: -1.3%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .box{
+        font-size: .5em; 
+    }
+    
+    #panelTwo{
+        margin-top: 1.5%;
+    }
+
+    #panelThree{
+        margin-top: 9%;
+    }
+
+    #lastPanel{
+        margin-top: -2.4%;
+    }
+
+    #menu{
+        width: 300px; 
+        font-size: 28px;
+    }
+
+    #infoContainer {
+        top: 50px;
+    }
+
+    #shortcut{
+        height: 2px;
+    }
+
+     .info {
+        font-size: 50%;
+    }
+
+     .grupa {
+        font-size: 30%;
+    }
+
+     #shortcut {
+        font-size: 50%;
+        height: 18px;
+    }
+
+
+     #denumire{
+        margin-top: 3.5%;
+        margin-left: 24.5%;
+        font-size: 60%;
+    }
+
+    #denumire2 {
+        font-size: 60%;
+        margin-top: 3%;
+    }
+
+    #atomic{
+        margin-top: 5%;
+        font-size: 60%;
+    }
+
+    #masa{
+        font-size: 60%;
+        margin-top: 0%;
+    }
+
+     #p{
+        position: absolute;
+        top: 3%;
+    }
+
+     #e {
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #r {
+        position: absolute;
+        top: 7%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #i {
+        position: absolute;
+        top: 9%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #o {
+        position: absolute;
+        top: 11%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #a {
+        position: absolute;
+        top: 13%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #d {
+        position: absolute;
+        top: 15%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #a2 {
+        position: absolute;
+        top: 17%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+
+    #unu {
+       position: absolute;
+        top: 22%;
+        left: 0%;
+        font-size: 2.5em;
+    }
+
+
+    #doi {
+       position: absolute;
+        top: 25%;
+        left: 0%;
+    }
+
+
+
+    #trei {
+       position: absolute;
+        top: 28%;
+        left: 0%;
+    }
+
+   
+
+    #patru {
+       position: absolute;
+        top: 31%;
+        left: 0%;
+    }
+ 
+    #cinci {
+       position: absolute;
+        top: 34.5%;
+        left: 0%;
+    }
+    
+
+    #sase {
+       position: absolute;
+        top: 37.5%;
+        left: 0%;
+    }
+
+
+    #sapte {
+       position: absolute;
+        top: 41%;
+        left: 0%;
+    }
+
+  
+}
+
+@media screen and (max-width: 400px){
+   #panelTwo{
+        margin-top: 1.2%;
+    }
+
+
+    #panelThree{
+        margin-top: 13%;
+    }
+
+    #lastPanel{
+        margin-top: -4.6%;
+    }
+
+    .info {
+        font-size: 50%;
+    }
+
+    .grupa {
+        font-size: 20%;
+    }
+
+    #gru h5{
+        font-size: 50%;
+    }
+
+    #shortcut {
+        font-size: 50%;
+        height: 18px;
+    }
+
+     #denumire{
+        margin-top: 6%;
+        margin-left: 16.5%;
+        font-size: 60%;
+    }
+
+    #denumire2 {
+        font-size: 60%;
+        margin-top: 5%;
+        margin-left: 16.5%;
+    }
+
+    #atomic{
+        margin-top: 8%;
+        font-size: 60%;
+    }
+
+    #masa{
+        font-size: 60%;
+        margin-top: 2%;
+    }
+
+     #p{
+        position: absolute;
+        top: 0%;
+    }
+
+     #e {
+        position: absolute;
+        top: 2%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #r {
+        position: absolute;
+        top: 4%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #i {
+        position: absolute;
+        top: 6%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #o {
+        position: absolute;
+        top: 8%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #a {
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #d {
+        position: absolute;
+        top: 12%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+    #a2 {
+        position: absolute;
+        top: 14%;
+        left: 0%;
+        font-size: 1em;
+    }
+
+
+    #unu {
+       position: absolute;
+        top: 18%;
+        left: 0%;
+        font-size: 2.5em;
+    }
+
+
+    #doi {
+       position: absolute;
+        top: 21%;
+        left: 0%;
+    }
+
+
+
+    #trei {
+       position: absolute;
+        top: 25%;
+        left: 0%;
+    }
+
+   
+
+    #patru {
+       position: absolute;
+        top: 28%;
+        left: 0%;
+    }
+ 
+    #cinci {
+       position: absolute;
+        top: 31.5%;
+        left: 0%;
+    }
+    
+
+    #sase {
+       position: absolute;
+        top: 34.5%;
+        left: 0%;
+    }
+
+
+    #sapte {
+       position: absolute;
+        top: 37.5%;
+        left: 0%;
+    }
+
+
+
+}
+
+
+#clear{
+    clear: both; 
+}
